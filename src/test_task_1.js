@@ -71,12 +71,12 @@
 
 //Залиших, у кого isActive: true.
 
-const users = [
-  { name: "Anna", isActive: true },
-  { name: "Mark", isActive: false },
-  { name: "Lena", isActive: true },
-];
+// const users = [
+//   { name: "Anna", isActive: true },
+//   { name: "Mark", isActive: false },
+//   { name: "Lena", isActive: true },
+// ];
 
-const result = users.filter((user) => user.isActive);
+// const result = users.filter((user) => user.isActive);
 
-console.log(result);
+// console.log(result);
