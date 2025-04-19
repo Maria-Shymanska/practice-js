@@ -1,22 +1,22 @@
 // 10 task with method filter()
 // 🧠 1. Відфільтрувати парні числа. Залишити тільки парні числа.
 
-// const numberFilter = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numberFilter = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// const sum = numberFilter.filter((value) => value % 2 === 0);
-// console.log(sum);
+const sum = numberFilter.filter((value) => value % 2 === 0);
+console.log(sum);
 
 // 🧠 2. Знайти користувачів з віком понад 18. Задача: Залишити тільки користувачів, яким 18 або більше.
 
-// const users = [
-//   { name: "Alice", age: 17 },
-//   { name: "Bob", age: 22 },
-//   { name: "Charlie", age: 15 },
-//   { name: "David", age: 30 },
-// ];
+const users = [
+  { name: "Alice", age: 17 },
+  { name: "Bob", age: 22 },
+  { name: "Charlie", age: 15 },
+  { name: "David", age: 30 },
+];
 
-// const ageUser = users.filter((user) => user.age >= 18);
-// console.log(ageUser);
+const ageUser = users.filter((user) => user.age >= 18);
+console.log(ageUser);
 
 // 🧠 3. Видалити порожні рядки з масиву. Залишити тільки непорожні рядки.
 
